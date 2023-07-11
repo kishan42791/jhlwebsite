@@ -1,7 +1,7 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo from '@/components/modal-video'
-import Particles from './particles'
 import HairModel from '@/public/images/jhl6.svg'
+import FurModel from '@/public/images/jhl6.svg'
+import LeatherModel from '@/public/images/jhl6.svg'
+import CardSection from '../card'
 import Image from 'next/image'
 
 export default function Hero() {
@@ -46,13 +46,13 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className='relative pt-32 pb-10 md:pt-40 md:pb-16'>
+        <div className='relative pt-100 pb-10 md:pt-40 md:pb-16'>
           <div className='max-w-3xl mx-auto text-center pb-12 md:pb-16'>
             <h1
               className='h1 mb-4 z-10 text-[10rem] text-transparent duration-1000  cursor-default  animate-title  whitespace-nowrap bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-1 transition font-display  font-bold leading-none'
               data-aos='fade-up'
             >
-              HAIR
+              JHL
             </h1>
 
             <h3
@@ -60,59 +60,37 @@ export default function Hero() {
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              JHL provides a complete line of raw materials for the hair color
-              manufacturer.
+              Fashion Begins in Our Color Labs
             </h3>
-
-            <Image
-              alt='logo'
-              src={HairModel}
-              width={350}
-              // height={275}
-              style={{ opacity: '80%', marginLeft: '10' }}
-              className='mb-6'
-            />
-            <div className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-20'>
-              <div data-aos='fade-up' data-aos-delay='400'>
-                <a
-                  className='btn text-white bg-rose-600 hover:bg-rose-700 w-full mb-4 sm:w-auto sm:mb-0'
-                  href='#0'
-                >
-                  Products
-                </a>
-              </div>
-              <div data-aos='fade-up' data-aos-delay='600'>
-                <a
-                  className='btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4'
-                  href='#0'
-                >
-                  Services
-                </a>
-              </div>
-            </div>
-            <h4
-              className='h4 text-gray-400 mb-8'
+            <h5
+              className='h5 text-gray-500 mb-1'
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              DYE INTERMEDIATES for permanent hair color are available, along
-              with specially formulated bases and developers. The base materials
-              for cream and liquid formulations are designed for maximum color
-              deposition along with superior conditioning. Dyestuff and base
-              materials are also available for semi-permanent and specialty
-              systems.
-            </h4>
+              PERFECTING THE ART OF COLOR FORMULATIONS hair fur
+            </h5>
+
+            <div className='container mx-auto px-5 mt-8 grid gap-2 md:mt-16 md:grid-cols-3 md:flex-row'>
+              <CardSection
+                title='HAIR'
+                link='/hair'
+                imgSrc={HairModel}
+                imgAlt='Hair Model'
+              />
+              <CardSection
+                title='FUR'
+                link=''
+                imgSrc={FurModel}
+                imgAlt='Fur Model'
+              />
+              <CardSection
+                title='LEATHER'
+                link=''
+                imgSrc={LeatherModel}
+                imgAlt='Leather Model'
+              />
+            </div>
           </div>
-          {/* <Image
-            alt='logo'
-            src={HairModel}
-            style={{ width: '400', height: '276' }}
-            // thumbWidth={824}
-            // thumbHeight={376}
-            // thumbAlt='Hair Model'
-            // videoWidth={1920}
-            // videoHeight={1080}
-          /> */}
         </div>
       </div>
     </section>

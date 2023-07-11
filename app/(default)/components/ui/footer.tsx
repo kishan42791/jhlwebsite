@@ -29,8 +29,8 @@ export default function Footer() {
               </div>
               <div className='text-gray-400'>
                 {' '}
-                Our technical staff is well versed in all phases of the hair
-                color formulator’s requirements.
+                Since 1897, our staff has been perfecting the Art of Color
+                Formulation.
               </div>
             </div>
 
@@ -38,14 +38,14 @@ export default function Footer() {
             <div className='md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8'>
               {/* 2nd block */}
               <div className='text-sm'>
-                <h6 className='text-gray-200 font-medium mb-1'>Products</h6>
+                <h6 className='text-gray-200 font-medium mb-1'>Hair</h6>
                 <ul>
                   <li className='mb-1'>
                     <Link
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Web Studio
+                      Products
                     </Link>
                   </li>
                   <li className='mb-1'>
@@ -53,7 +53,7 @@ export default function Footer() {
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      DynamicBox Flex
+                      Services
                     </Link>
                   </li>
                   <li className='mb-1'>
@@ -61,7 +61,15 @@ export default function Footer() {
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Programming Forms
+                      Company
+                    </Link>
+                  </li>
+                  <li className='mb-1'>
+                    <Link
+                      href='/'
+                      className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
+                    >
+                      Contact
                     </Link>
                   </li>
                 </ul>
@@ -69,14 +77,14 @@ export default function Footer() {
 
               {/* 3rd block */}
               <div className='text-sm'>
-                <h6 className='text-gray-200 font-medium mb-1'>Services</h6>
+                <h6 className='text-gray-200 font-medium mb-1'>Fur</h6>
                 <ul>
                   <li className='mb-1'>
                     <Link
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Nostrud exercitation
+                      Products
                     </Link>
                   </li>
                   <li className='mb-1'>
@@ -84,7 +92,7 @@ export default function Footer() {
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Visual mockups
+                      Services
                     </Link>
                   </li>
                   <li className='mb-1'>
@@ -92,7 +100,7 @@ export default function Footer() {
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Nostrud exercitation
+                      Company
                     </Link>
                   </li>
                   <li className='mb-1'>
@@ -100,15 +108,7 @@ export default function Footer() {
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Visual mockups
-                    </Link>
-                  </li>
-                  <li className='mb-1'>
-                    <Link
-                      href='/'
-                      className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
-                    >
-                      Nostrud exercitation
+                      Contact
                     </Link>
                   </li>
                 </ul>
@@ -116,14 +116,14 @@ export default function Footer() {
 
               {/* 4th block */}
               <div className='text-sm'>
-                <h6 className='text-gray-200 font-medium mb-1'>Company</h6>
+                <h6 className='text-gray-200 font-medium mb-1'>Leather</h6>
                 <ul>
                   <li className='mb-1'>
                     <Link
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Consectetur adipiscing
+                      Products
                     </Link>
                   </li>
                   <li className='mb-1'>
@@ -131,7 +131,7 @@ export default function Footer() {
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Labore et dolore
+                      Services
                     </Link>
                   </li>
                   <li className='mb-1'>
@@ -139,7 +139,7 @@ export default function Footer() {
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Consectetur adipiscing
+                      Company
                     </Link>
                   </li>
                   <li className='mb-1'>
@@ -147,15 +147,7 @@ export default function Footer() {
                       href='/'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
-                      Labore et dolore
-                    </Link>
-                  </li>
-                  <li className='mb-1'>
-                    <Link
-                      href='/'
-                      className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
-                    >
-                      Consectetur adipiscing
+                      Contact
                     </Link>
                   </li>
                 </ul>
@@ -170,7 +162,7 @@ export default function Footer() {
               <li>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Twitter'
                 >
                   <svg
@@ -185,7 +177,7 @@ export default function Footer() {
               <li className='ml-4'>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Github'
                 >
                   <svg
@@ -200,7 +192,7 @@ export default function Footer() {
               <li className='ml-4'>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Facebook'
                 >
                   <svg
@@ -215,7 +207,7 @@ export default function Footer() {
               <li className='ml-4'>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Instagram'
                 >
                   <svg
@@ -232,7 +224,7 @@ export default function Footer() {
               <li className='ml-4'>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Linkedin'
                 >
                   <svg
