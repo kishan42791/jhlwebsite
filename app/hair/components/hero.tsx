@@ -1,7 +1,5 @@
 import HairModel from '@/public/images/jhl6.svg'
-import FurModel from '@/public/images/jhl4.svg'
-import LeatherModel from '@/public/images/jhl3.svg'
-import CardSection from '../card'
+import HairDye from '@/public/images/jhl5.svg'
 import Image from 'next/image'
 
 export default function Hero() {
@@ -9,7 +7,7 @@ export default function Hero() {
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6 relative'>
         {/* Illustration behind hero content */}
-        <div
+        {/* <div
           className='absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none'
           aria-hidden='true'
           data-aos='fade-up'
@@ -43,7 +41,7 @@ export default function Hero() {
               fill='url(#illustration-02)'
             />
           </svg>
-        </div>
+        </div> */}
 
         {/* Hero content */}
         <div className='relative pt-100 pb-10 md:pt-40 md:pb-16'>
@@ -54,23 +52,6 @@ export default function Hero() {
             >
               Hair
             </h1>
-
-            <h3
-              className='h3 text-gray-400 mb-1'
-              data-aos='fade-up'
-              data-aos-delay='200'
-            >
-              JHL provides a complete line of raw materials for the hair color
-              manufacturer.
-            </h3>
-            <h4
-              className='h4 text-gray-500 mb-1'
-              data-aos='fade-up'
-              data-aos-delay='200'
-            >
-              Our technical staff is well versed in all phases of the hair color
-              formulator’s requirements.
-            </h4>
             <Image
               alt='JHL Hair Model'
               src={HairModel}
@@ -79,20 +60,52 @@ export default function Hero() {
               style={{ margin: 'auto' }}
               data-aos='fade-up'
               data-aos-delay='200'
-              className='my-10'
             />
-            <h4
-              className='h4 text-gray-400 my-20'
+            <h3
+              className='h3 text-gray-400 mb-1 mt-10'
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              <span className='text-rose-500'>DYE INTERMEDIATES</span> for
-              permanent hair color are available, along with specially
-              formulated bases and developers. The base materials for cream and
-              liquid formulations are designed for maximum color deposition
-              along with superior conditioning. Dyestuff and base materials are
-              also available for semi-permanent and specialty systems.
+              JHL provides a complete line of raw materials for the hair color
+              manufacturer.
+            </h3>
+
+            <h4
+              className='h4 text-gray-500 mb-20'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
+              Our technical staff is well versed in all phases of the hair color
+              formulator’s requirements.
             </h4>
+            <div className='flex flex-col md:flex-row '>
+              <div className='md:w-1/2 my-20'>
+                <h4
+                  className='h4 text-xl text-gray-400 my-10'
+                  data-aos='fade-up'
+                  data-aos-delay='200'
+                >
+                  <span className='text-rose-500'>DYE INTERMEDIATES</span> for
+                  permanent hair color are available, along with specially
+                  formulated bases and developers. The base materials for cream
+                  and liquid formulations are designed for maximum color
+                  deposition along with superior conditioning. Dyestuff and base
+                  materials are also available for semi-permanent and specialty
+                  systems.
+                </h4>
+              </div>
+              <div className='md:w-1/2 my-20 mx-5'>
+                <Image
+                  alt='JHL Hair Model'
+                  src={HairDye}
+                  width='500'
+                  height='375'
+                  style={{ margin: 'auto' }}
+                  data-aos='fade-up'
+                  data-aos-delay='200'
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
