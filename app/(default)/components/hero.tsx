@@ -67,7 +67,7 @@ export default function Hero() {
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              PERFECTING THE ART OF COLOR FORMULATIONS hair fur
+              PERFECTING THE ART OF COLOR FORMULATIONS
             </h5>
 
             <div className='container mx-auto px-5 mt-8 grid gap-2 md:mt-16 md:grid-cols-3 md:flex-row'>

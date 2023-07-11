@@ -28,7 +28,7 @@ const CardSection: React.FC<CardSectionProps> = ({
         className='btn text-white bg-blue-600 hover:bg-rose-500 w-full mb-4 sm:w-auto sm:mb-0 rounded-full'
         href={link}
       >
-        <span>{title}</span>
+        <h5 className='h5'>{title}</h5>
       </a>
     </div>
   )
