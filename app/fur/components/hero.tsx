@@ -1,7 +1,5 @@
 import HairModel from '@/public/images/jhl6.svg'
-import FurModel from '@/public/images/jhl4.svg'
-import LeatherModel from '@/public/images/jhl3.svg'
-import CardSection from '../card'
+import HairDye from '@/public/images/jhl5.svg'
 import Image from 'next/image'
 
 export default function Hero() {
@@ -9,7 +7,7 @@ export default function Hero() {
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6 relative'>
         {/* Illustration behind hero content */}
-        <div
+        {/* <div
           className='absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none'
           aria-hidden='true'
           data-aos='fade-up'
@@ -43,52 +41,90 @@ export default function Hero() {
               fill='url(#illustration-02)'
             />
           </svg>
-        </div>
+        </div> */}
 
         {/* Hero content */}
         <div className='relative pt-100 pb-10 md:pt-40 md:pb-16'>
           <div className='max-w-3xl mx-auto text-center pb-12 md:pb-16'>
             <h1
-              className='h1 mb-4 z-10 text-[10rem] text-transparent duration-1000  cursor-default  animate-title  whitespace-nowrap bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-4 transition font-display  font-bold leading-none'
+              className='h1 mb-4 z-10 text-[10rem] text-transparent duration-1000  cursor-default  animate-title  whitespace-nowrap bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-1 transition font-display  font-bold leading-none'
               data-aos='fade-up'
             >
-              JHL
+              Hair
             </h1>
-
+            <Image
+              alt='JHL Hair Model'
+              src={HairModel}
+              width='200'
+              height='175'
+              style={{ margin: 'auto' }}
+              data-aos='fade-up'
+              data-aos-delay='200'
+            />
             <h3
-              className='h3 text-gray-400 mb-1'
+              className='h3 text-gray-400 mb-1 mt-10'
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              Fashion Begins in Our Color Labs
+              JHL provides a complete line of raw materials for the hair color
+              manufacturer.
             </h3>
-            <h5
-              className='h5 text-gray-500 mb-1'
+
+            <h4
+              className='h4 text-gray-500 mb-5'
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              PERFECTING THE ART OF COLOR FORMULATIONS
-            </h5>
-
-            <div className='container mx-auto px-5 mt-8 grid gap-2 md:mt-16 md:grid-cols-3 md:flex-row'>
-              <CardSection
-                title='HAIR'
-                link='/hair'
-                imgSrc={HairModel}
-                imgAlt='Hair Model'
-              />
-              <CardSection
-                title='FUR'
-                link='/fur'
-                imgSrc={FurModel}
-                imgAlt='Fur Model'
-              />
-              <CardSection
-                title='LEATHER'
-                link=''
-                imgSrc={LeatherModel}
-                imgAlt='Leather Model'
-              />
+              Our technical staff is well versed in all phases of the hair color
+              formulator’s requirements.
+            </h4>
+            <div className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-20'>
+              <div data-aos='fade-up' data-aos-delay='400'>
+                <a
+                  className='btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4
+sm:w-auto sm:mb-0'
+                  href='/hair/products'
+                >
+                  Products
+                </a>
+              </div>
+              <div data-aos='fade-up' data-aos-delay='600'>
+                <a
+                  className='btn text-white bg-gray-700 hover:bg-gray-800 w-full
+sm:w-auto sm:ml-4'
+                  href='#0'
+                >
+                  Services
+                </a>
+              </div>
+            </div>
+            <div className='flex flex-col md:flex-row '>
+              <div className='md:w-1/2 mt-10'>
+                <h4
+                  className='h4 text-xl text-gray-400 my-10'
+                  data-aos='fade-up'
+                  data-aos-delay='200'
+                >
+                  <span className='text-rose-500'>DYE INTERMEDIATES</span> for
+                  permanent hair color are available, along with specially
+                  formulated bases and developers. The base materials for cream
+                  and liquid formulations are designed for maximum color
+                  deposition along with superior conditioning. Dyestuff and base
+                  materials are also available for semi-permanent and specialty
+                  systems.
+                </h4>
+              </div>
+              <div className='md:w-1/2 my-20 mx-5'>
+                <Image
+                  alt='JHL Hair Model'
+                  src={HairDye}
+                  width='500'
+                  height='375'
+                  style={{ margin: 'auto' }}
+                  data-aos='fade-up'
+                  data-aos-delay='200'
+                />
+              </div>
             </div>
           </div>
         </div>
