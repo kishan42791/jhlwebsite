@@ -12,12 +12,12 @@ export default function Banner() {
           <div className='bg-slate-800 text-slate-50 text-sm p-3 md:rounded shadow-lg flex justify-between'>
             <div className='text-slate-500 inline-flex'>
               <a
-                className='font-medium hover:underline text-slate-50'
+                className='font-medium hover:underline text-slate-300'
                 href=''
-                target='_blank'
+                target=''
                 rel='noreferrer'
               >
-                <span className='hidden sm:inline'> Email</span>
+                <span className=' sm:inline'> Email</span>
               </a>{' '}
               <span className='italic px-1.5'>or</span>{' '}
               <a

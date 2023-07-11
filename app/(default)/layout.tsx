@@ -6,6 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 import PageIllustration from '@/app/(default)/components/page-illustration'
+import Header from '@/app/(default)/components/ui/header'
 import Footer from '@/app/(default)/components/ui/footer'
 
 export default function DefaultLayout({
@@ -24,6 +25,7 @@ export default function DefaultLayout({
 
   return (
     <>
+      <Header />
       <main className='grow'>
         <PageIllustration />
 

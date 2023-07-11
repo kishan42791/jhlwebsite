@@ -71,6 +71,28 @@ export default function Hero() {
               Our technical staff is well versed in all phases of the hair color
               formulator’s requirements.
             </h4>
+            <Image
+              alt='JHL Hair Model'
+              src={HairModel}
+              width='200'
+              height='175'
+              style={{ margin: 'auto' }}
+              data-aos='fade-up'
+              data-aos-delay='200'
+              className='my-10'
+            />
+            <h4
+              className='h4 text-gray-400 my-20'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
+              <span className='text-rose-500'>DYE INTERMEDIATES</span> for
+              permanent hair color are available, along with specially
+              formulated bases and developers. The base materials for cream and
+              liquid formulations are designed for maximum color deposition
+              along with superior conditioning. Dyestuff and base materials are
+              also available for semi-permanent and specialty systems.
+            </h4>
           </div>
         </div>
       </div>

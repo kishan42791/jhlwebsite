@@ -25,7 +25,7 @@ const CardSection: React.FC<CardSectionProps> = ({
       <h3 className='flex items-center gap-1 text-zinc-50 font-display text-2xl font-medium leading-none'></h3>
       <Image src={imgSrc} alt={imgAlt} width={120} height={30} unoptimized />
       <a
-        className='btn text-white bg-blue-600 hover:bg-amber-500 w-full mb-4 sm:w-auto sm:mb-0 rounded-full'
+        className='btn text-white bg-blue-600 hover:bg-blue-500 w-full mb-4 sm:w-auto sm:mb-0 rounded-full'
         href={link}
       >
         <h5 className='h5'>{title}</h5>

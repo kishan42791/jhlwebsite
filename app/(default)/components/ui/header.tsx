@@ -27,31 +27,31 @@ export default function Header() {
             <ul className='flex grow justify-end flex-wrap items-center'>
               <li>
                 <Link
-                  href='/signin'
+                  href='/hair'
                   className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Company
+                  Hair
                 </Link>
               </li>
               <li>
                 <Link
-                  href='/signin'
+                  href='/'
                   className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Products
+                  Fur
                 </Link>
               </li>
               <li>
                 <Link
-                  href='/signin'
+                  href='/'
                   className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Services
+                  Leather
                 </Link>
               </li>
               <li>
                 <Link
-                  href='/signin'
+                  href='/'
                   className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
                   Contact
