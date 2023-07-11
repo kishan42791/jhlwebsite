@@ -21,7 +21,7 @@ export default function Banner() {
               </a>{' '}
               <span className='italic px-1.5'>or</span>{' '}
               <a
-                className='font-medium hover:underline text-blue-500'
+                className='font-medium hover:underline text-emerald-400'
                 href=''
                 target='_blank'
                 rel='noreferrer'
