@@ -6,16 +6,12 @@ export default function Blocks() {
           {/* Section header */}
           <div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
             <h2 className='h2 mb-4'>
-              JHL provides a complete line of raw materials for the hair color
-              manufacturer.
+            With over 100 years of experience in the chemistry of fur dyeing and processing,
+            JHL is the world leader in fur technology.
             </h2>
-            <p className='text-xl text-gray-400'>
-              Our technical staff is well versed in all phases of the hair color
-              formulator’s requirements.
-            </p>
           </div>
 
-          {/* Items */}
+          {/* Items */}npm
           <div
             className='max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none'
             data-aos-id-blocks
@@ -52,7 +48,7 @@ export default function Blocks() {
                   strokeWidth='2'
                 />
               </svg>
-              <h4 className='h4 mb-2'>HAIR</h4>
+              <h4 className='h4 mb-2'>FUR</h4>
               <p className='text-lg text-gray-400 text-center'>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat

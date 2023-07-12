@@ -6,12 +6,8 @@ export default function Features() {
           {/* Section header */}
           <div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
             <h4 className='h4 mb-4'>
-              DYE INTERMEDIATES for permanent hair color are available, along
-              with specially formulated bases and developers. The base materials
-              for cream and liquid formulations are designed for maximum color
-              deposition along with superior conditioning. Dyestuff and base
-              materials are also available for semi-permanent and specialty
-              systems.
+              FROM SINGLE, DOUBLE & TRIPLE REINFORCING, to oxidation dyeing to bright acid dyeing for sheepskin and fine furs, such as mink, fox or sable, our technological expertise and creative flair has distinguished.
+              JHL as the leading supplier to the world’s fur dressers and dyers.
             </h4>
           </div>
 
@@ -52,7 +48,7 @@ export default function Features() {
                   strokeWidth='2'
                 />
               </svg>
-              <h4 className='h4 mb-2'>Dye Intermediates</h4>
+              <h4 className='h4 mb-2'> FROM SINGLE, DOUBLE & TRIPLE REINFORCING</h4>
               <p className='text-lg text-gray-400 text-center'></p>
             </div>
 

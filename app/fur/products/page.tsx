@@ -11,7 +11,7 @@ import Hero from '@/app/fur/components/hero'
 import React from 'react'
 import Particles from '@/app/fur/components/particles'
 
-export default function HairProductsf() {
+export default function FurProductsf() {
   return (
     <>
       <div className='flex flex-col items-center justify-center overflow-hidden '>
